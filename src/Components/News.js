@@ -58,7 +58,8 @@ const News = (props) => {
         hasMore={articles.length !== totalResults}
         loader={<Spinner />}
       >
-        <div className="container">         <div className="row">
+        <div className="container">
+          <div className="row">
           {articles.map((element) => {
             return <div className="col-md-4" key={element.url}>
               <NewsItems title={element.title ? element.title.slice(0, 45) : ""} description={element.description ? element.description.slice(0, 88) : ""} imageUrl={element.urlToImage}
