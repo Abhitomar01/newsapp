@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Features
+
+- Fetches the latest news from a reliable API.
+- Categorized news sections (e.g., Technology, Sports, Business).
+- Responsive design for mobile and desktop users.
+- Infinite scrolling for seamless browsing.
+- Dark mode support.
+
+## Prerequisites
+
+Before running this project, ensure you have the following installed:
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/newsapp.git
